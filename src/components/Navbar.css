@@ -1,0 +1,39 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: right;
+}
+
+.logo-image {
+  height: 70px; /* Adjust the size as needed */
+  width: 70px; /* Ensure the width is the same as height to make it a perfect circle */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+.navbar-links a {
+  color: hsl(0, 0%, 100%);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-auth a {
+  color: rgba(255, 255, 255, 0.332);
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links a:hover,
+.navbar-auth a:hover {
+  text-decoration: underline;
+}

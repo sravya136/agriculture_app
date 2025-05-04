@@ -1,0 +1,113 @@
+/* Overall forum container */
+.community-forum {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .community-forum h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .community-forum p {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+  }
+  
+  /* Posts section styling */
+  .posts-section {
+    margin-bottom: 40px;
+  }
+  
+  .post {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .post h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .post p {
+    color: #34495e;
+  }
+  
+  .post-media {
+    margin-top: 10px;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Solutions section styling */
+  .solutions-section {
+    margin-top: 20px;
+  }
+  
+  .solution {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+  }
+  
+  .solution p {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .solution button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .solution button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* New post section styling */
+  .new-post {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-post input[type="text"],
+  .new-post input[type="file"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+  }
+  
+  .new-post button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .new-post button:hover {
+    background-color: #27ae60;
+  }
+  

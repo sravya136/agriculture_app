@@ -1,0 +1,113 @@
+/* src/styles/CropSelection.css */
+
+.crop-selection {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+p {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #bdc3c7;
+}
+
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: #2980b9;
+}
+
+.filter-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.crops {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.crop {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.crop h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.crop p {
+  margin-bottom: 5px;
+  color: #34495e;
+}
+
+.crop-image {
+  width: 100%; /* Ensure image takes full width */
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.crop-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.crop-link:hover {
+  text-decoration: underline;
+}
+
+.crop button {
+  padding: 10px 15px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.crop button:hover {
+  background-color: #27ae60;
+}
